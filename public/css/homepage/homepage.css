@@ -1,0 +1,411 @@
+/* Google Font */
+
+    /* For Section Home Title */
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+    /* For Section Home Title End */
+
+    /* For Section Home Tagline */
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong&display=swap');
+    /* For Section Home Tagline End */
+
+    /* For Section Home Owner */
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    /* For Section Home Owner End */
+
+    /* For Section About */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    /* For Section About */
+
+/* Google Font End */
+
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+/* Body End */
+
+/* Homepage Background */
+img.homepage-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+/* Homepage Background End */
+
+/* Header */
+header.homepage-header{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    height: 80px;
+    z-index: 1;
+}
+
+    /* Header Logo */
+    div.header-logo{
+        position: relative;
+        left: 150px;
+        top: -10px;
+    }
+
+    img.logo-omah-kopi{
+        transition: 0.3s;
+    }
+
+    img.logo-omah-kopi:hover{
+        transform: translateY(-5px);
+        scale: 1.1;
+    }
+    /* Header Logo End */
+
+    /* Header Menu */
+    div.header-menu{
+        text-align: center;
+        position: relative;
+        top: 25px;
+    }
+
+    a.menu-1{
+        transition: 0.3s;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    a.menu-1:hover{
+        color: #007042;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    a.menu-2{
+        transition: 0.3s;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    a.menu-2:hover{
+        color: #007042;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    a.menu-3{
+        transition: 0.3s;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    a.menu-3:hover{
+        color: #007042;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    a.menu-4{
+        transition: 0.3s;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    a.menu-4:hover{
+        color: #007042;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    a.menu-5{
+        transition: 0.3s;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    a.menu-5:hover{
+        color: #007042;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    /* Header Menu End */
+
+    /* Header login Register */
+    div.header-login-register{
+        font-size: 11px;
+        position: relative;
+        top: 30px;
+    }
+
+    a.header-login{
+        transition: 0.3s;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    a.header-login:hover{
+        font-size: 17px;
+        color: #007042;
+    }
+
+    a.header-register{
+        transition: 0.3s;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    a.header-register:hover{
+        font-size: 17px;
+        color: #007042;
+    }
+    /* Header login Register End  */
+
+/* Header End */
+
+/* Section Home */
+section.home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+    /* Title Tagline Owner */
+    div.section-home-title-tagline-owner{
+        text-align: center;
+        position: relative;
+        top: 250px;
+    }
+
+    h1.section-home-title{
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        font-size: 100px;
+        font-weight: bold;
+        position: relative;
+        margin: 0px;
+    }
+
+    h5.section-home-tagline{
+        color: white;
+        font-family: 'Noto Serif NP Hmong', serif;
+        font-size: 20px;
+        position: relative;
+        margin: 0px;
+    }
+
+    p.section-home-owner{
+        color: white;
+        font-family: 'PT Sans', sans-serif;
+        position: relative;
+        margin: 0px;
+    }
+    /* Title Tagline Owner End */
+
+    /* Store */
+    div.section-home-store{
+        position: relative;
+        margin-top: 50px;
+    }
+
+    a.section-home-store-cart{
+        color: white;
+        text-decoration: none;
+        position: relative;
+    }
+
+    i.fa-cart-shopping{
+        transition: 0.3s;
+    }
+
+    i.fa-cart-shopping:hover{
+        transform: translateY(-5px);
+        rotate: -15deg;
+        scale: 1.1;
+    }
+
+    h6.section-home-store-cart-text{
+        color: white;
+        font-family: 'Noto Serif NP Hmong', serif;
+        font-size: small;
+        font-weight: medium;
+        text-align: center;
+        margin: 10px;
+    }
+
+    a.section-home-store-market{
+        color: white;
+        text-decoration: none;
+        position: relative;
+    }
+
+    i.fa-store{
+        transition: 0.3s;
+    }
+
+    i.fa-store:hover{
+        transform: translateY(-5px);
+        scale: 1.1;
+    }
+
+    h6.section-home-store-market-text{
+        color: white;
+        font-family: 'Noto Serif NP Hmong', serif;
+        font-size: small;
+        font-weight: medium;
+        text-align: center;
+        margin: 10px;
+    }
+    /* Store End */
+
+/* Section Home End */
+
+/* Main Content */
+main{
+    position: relative;
+    top: 350px;
+}
+    /* Section About */
+    section.section-about{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+        /* About Us */
+        div.about-us{
+            margin-bottom: 25px;
+            padding: 50px;
+        }
+        h2.about-us-title{
+            color: #007042;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+        }
+
+        img.about-us-picture{
+            margin-left: 50px;
+            transition: 0.5s;
+        }
+
+        img.about-us-picture:hover{
+            transform: translateY(-10px);
+            filter: drop-shadow(8px 8px 10px gray);
+        }
+        /* About Us End */
+
+        /* About Coffee */
+        div.about-coffee{
+            margin-top: 25px;
+            padding: 50px;
+        }
+
+        h2.about-coffee-title{
+            color: #007042;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+        }
+
+        img.about-coffee-picture{
+            transition: 0.5s;
+        }
+
+        img.about-coffee-picture:hover{
+            transform: translateY(-10px);
+            filter: drop-shadow(8px 8px 10px gray);
+        }
+        /* About Coffee End */
+
+    /* Section About End */
+
+    /* Section Services */
+    section.section-services{
+        text-align: center;
+        align-items: center;
+    }
+
+    h2.section-services-title{
+        color: #007042;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+
+        /* Services */
+        a.section-services-call-center{
+            transition: 0.3s;
+            color: #007042;
+            background-color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+            text-decoration: none;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            padding: 50px;
+        }
+
+        a.section-services-call-center:hover{
+            filter: drop-shadow(8px 8px 10px gainsboro);
+        }
+
+        img.section-services-call-center-logo{
+            background-color: #007042;
+            padding: 10px;
+            border-radius: 10%;
+        }
+
+        a.section-services-call-center-link{
+            text-align: center;
+            text-decoration: none;
+            position: relative;
+        }
+
+        p.section-services-tagline{
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            top: 100px;
+        }
+        /* Services End */
+
+    /* Section Services End */
+
+    /* Footer */
+    footer{
+        position: relative;
+    }
+        /* Contact */
+        div.footer-contact{
+            background-color: black;
+            width: 100%;
+        }
+        /* Contact End */
+
+        /* Form Suggestion */
+        
+        /* Form Suggestion End */
+
+        /* Copyright */
+        
+        /* Copyright End */
+
+    /* Footer End */
+
+/* Main Content End */
